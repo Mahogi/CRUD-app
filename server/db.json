@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "title": "Marzipan",
+      "price": 12.5
+    },
+    {
+      "id": "2",
+      "title": "Jelly beans",
+      "price": 6.99
+    },
+    {
+      "id": "3",
+      "title": "Snickers",
+      "price": 0.5
+    },
+    {
+      "id": "4",
+      "title": "Sour candy",
+      "price": 1.49
+    },
+    {
+      "title": "Banana",
+      "price": 1.7,
+      "id": "P68ZuxB"
+    },
+    {
+      "title": "Chocolate",
+      "price": 4.44,
+      "id": "a_7TLNB"
+    },
+    {
+      "title": "Sweet potatoes",
+      "price": 7.7,
+      "id": "IvUgTEe"
+    },
+    {
+      "title": "Mars",
+      "price": 0.5,
+      "id": "TCSR31u"
+    },
+    {
+      "title": "Twix",
+      "price": 0.99,
+      "id": "FOsOZi9"
+    },
+    {
+      "title": "Another marzipan",
+      "price": 11.99,
+      "id": "kK08BXi"
+    }
+  ]
+}

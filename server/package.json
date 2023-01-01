@@ -1,0 +1,13 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "ca ts-13 first server",
+  "scripts": {
+    "start": "json-server --watch --port 3000 ./db.json"
+  },
+  "author": "Milda Gedvilaitė",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
