@@ -32,8 +32,19 @@ const onCreateCandy = async ({ title, price }) => {
     }
 }
 
+const onUpdateCandy = async ({ id, props }) => {
+    try {
+        await ApiService.updateCandy({ id, props });
+    } catch (error) {
+        alert(error);
+    } finally {
+        const candyStore = await ApiService.getCandyStore();
+        candyTableComponent.renderCandyStore(candyStore);
+    }
+}
+
 ApiService.getCandyStore().then( (candyStore) => {
-    candyTableComponent = new CandyTableComponent( {candyStore, onDeleteCandy});
+    candyTableComponent = new CandyTableComponent( {candyStore, onDeleteCandy, onUpdateCandy});
     const headerComponent = new HeaderComponent({
         text: 'Candy Store',
         className: 'text-center my-4 fw-normal',

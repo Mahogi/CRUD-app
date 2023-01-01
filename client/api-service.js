@@ -51,6 +51,27 @@ const ApiService = {
         } catch (error) {
             throw formatError(error);
         }
+    },
+
+    async updateCandy({ id, props }) {
+        //console.log(id, props);
+        try {
+            const response = await fetch(`${SERVER_ADDRESS}/${CANDY_COLLECTION_NAME}/${id}`, {
+                method: 'PATCH',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(props),
+            });
+
+            if (response.status === 404) {
+                throw new Error(`Failed to update Todo`);
+            }
+
+        } catch (error) {
+            throw formatError(error);
+        }
     }
 
 };

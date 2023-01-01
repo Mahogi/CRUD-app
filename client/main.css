@@ -1,4 +1,12 @@
-.todo-form {
+.addCandy-form {
     width: 300px;
     margin: 0 auto 20px;
+}
+
+.candy-table__row .btn-success {
+    display: none;
+}
+
+.candy-table__row--editable .btn-success {
+    display: inline-block;
 }

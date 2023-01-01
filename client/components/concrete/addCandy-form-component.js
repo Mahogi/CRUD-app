@@ -3,7 +3,7 @@ class AddCandyFormComponent {
 
     constructor({ onSubmit }) {
         this.htmlElement = document.createElement('form');
-        this.htmlElement.className = 'todo-form shadow p-4'
+        this.htmlElement.className = 'addCandy-form shadow p-4'
         this.htmlElement.innerHTML = `
     <h2 class="h3 text-center mb-4 fw-normal">Add New Candy</h2>
     <div class="mb-3">
