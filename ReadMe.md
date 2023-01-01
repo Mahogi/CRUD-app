@@ -12,5 +12,5 @@ npm i
 ## Project initialization
 Open terminal in current (server/) folder and run command:
 ```
-npm run start
+npm run start  
 ```
