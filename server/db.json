@@ -8,47 +8,32 @@
     {
       "id": "2",
       "title": "Jelly beans",
-      "price": 6.99
-    },
-    {
-      "id": "3",
-      "title": "Snickers",
-      "price": 0.5
+      "price": 6.97
     },
     {
       "id": "4",
       "title": "Sour candy",
-      "price": 1.49
-    },
-    {
-      "title": "Banana",
-      "price": 1.7,
-      "id": "P68ZuxB"
-    },
-    {
-      "title": "Chocolate",
-      "price": 4.44,
-      "id": "a_7TLNB"
-    },
-    {
-      "title": "Sweet potatoes",
-      "price": 7.7,
-      "id": "IvUgTEe"
+      "price": 1.97
     },
     {
       "title": "Mars",
-      "price": 0.5,
+      "price": 0.97,
       "id": "TCSR31u"
     },
     {
       "title": "Twix",
-      "price": 0.99,
+      "price": 0.97,
       "id": "FOsOZi9"
     },
     {
       "title": "Another marzipan",
       "price": 11.99,
       "id": "kK08BXi"
+    },
+    {
+      "title": "Snickers",
+      "price": 0.49,
+      "id": "ikiCGID"
     }
   ]
 }
